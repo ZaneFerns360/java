@@ -1,0 +1,128 @@
+2) Create an interface “Drawable” with method draw.Create 3 classes
+“Rectangle” , “Circle” , “Triangle” inheriting from the interface. Re-Define
+the method in subclasses to print an appropriate message.
+3) Create an abstract method drive() in class “Vehicle”. Create subclasses
+“Car” and “Bus” to override the method. Print appropriate messages in
+methods of subclass.
+4) Define an exception “NoMatchException” that is thrown when a string is
+not equal to “India”. WAP that uses this exception
+
+5) Write a program to throw an exception if any input is beyond range 1-10.
+Demonstrate the use of try, catch
+6) WAP to create two separate threads. Threads prints the number from 1-
+10. Demonstrate both techniques of creating threads.
+7) WAP that reads internal and external marks for a student. The condition
+is -internal marks should always be less than 40 and external marks should
+
+be less than 60. Raise a user defined exception is condition is violated in
+input. Else calculate total marks and display.
+8) Write a program to create two threads, one thread will print odd numbers
+and second thread will print even numbers between 1 to 20 numbers.
+Both the threads should print the result alternately. Also display the
+thread id
+
+9)
+
+10) Create an abstract class 'Bank' with an abstract method
+'getBalance'. $100, $150 and $200 are deposited in banks A, B and C
+respectively. 'BankA', 'BankB' and 'BankC' are subclasses of class 'Bank',
+each having a method named 'getBalance'. Call this method by creating
+an object of each of the three classes.
+11) It also has a method named 'printSalary' which prints the salary of
+the members.
+Two classes 'Employee' and 'Manager' inherits the 'Member' class. The
+'Employee' and 'Manager' classes have data members 'specialization' and
+'department' respectively. Now, assign name, age, phone number,
+
+address and salary to an employee and a manager by making an object of
+both of these classes and print the same.
+12) WAP to generate 3 different types of exceptions in your program
+and handle it using try-catch-finally technique
+13) Description: Write a program to display a different quote each day
+of the year as the Thought of the day. The program should pick a random
+quote from an array of Quotes you provide and display it with the current
+date.
+14) Description: WAP to read term number. Write a function in the
+program to generate and print the fibonacci term.
+15) Based on String - WAP to count number of alphabets, numbers,
+spaces and special symbols in given input.
+16) WAP to demonstrate method overloading by creating area () to
+calculate area of circle, rectangle and triangle.
+17) Write a menu driven java program which will read a number and
+implement the following methods.
+a. Palindrome
+b. Fibonacci
+18) Write a program to input 2 strings using command line.
+Demonstrate the use of following StringBuffer methods.
+a. append() , b. insert() , c. replace() , d. delete() , e. reverse() , f. length()
+
+19) Write a class “UtoL” with method to convert string from upper case
+to lower
+case. Write another class “Array” with method to check if array is
+symmetric.
+Include both the classes in a package named “Utility” . Demonstrate how
+to use
+these classes in another package.
+
+20) Write a class “Point” with members x and y.
+Write a default and parametrized constructor to set x n y.
+Write display function to display x and y
+Write a class “Line” with members are 2 point objects.
+Write a method to find length of line and display it.
+Write a class “Triangle” with members as 3 Line objects.
+Write a method to find perimeter of triangle and display it.
+21) A publishing company that markets both book and audiocassette
+versions of its
+works. Create a class publication that stores the title (a string) and price
+(type float) of a publication. From this class derive two classes: book,
+which adds a page count (type int), and tape, which adds a playing time
+in minutes (type float). Each of these three classes should have a getdata()
+function to get its data from the user at the keyboard, and a putdata()
+function to display its data. Write a main() program to test the book and
+tape classes by creating instances of them, asking the user to fill in data
+with getdata(), and then displaying the data with putdata().
+22) Simulate the simultaneous transactions on ‘withdraw’ and ‘deposit’
+on bank account. Demonstrate using multithreading.
+23) Create GUI containing Name, email ID, Phone Number. For invalid
+password and user id print message on Dialogue box.
+24) Write a Java program to create and start multiple threads that
+increment a shared counter variable concurrently.
+25) Write a Java program to create a producer-consumer scenario using
+the wait() and notify() methods for thread synchronization.
+26) Write a Java program to create an abstract class GeometricShape
+with abstract methods area() and perimeter(). Create subclasses Triangle
+and Square that extend the GeometricShape class and implement the
+respective methods to calculate the area and perimeter of each shape.
+27) Write a Java program to create an abstract class BankAccount with
+abstract methods deposit() and withdraw(). Create subclasses:
+SavingsAccount and CurrentAccount that extend the BankAccount class
+and implement the respective methods to handle deposits and
+withdrawals for each account type.
+
+28) Write a Java program that reads a floating-point number. If the number is
+zero it prints “zero” otherwise, print “positive” or “negative”. Add “small” if
+the absolute value of the number is less than 1, or “large” if it exceeds
+1,000,000.
+Test Data
+Input a number: -2534
+Expected Output :
+Negative
+
+29) Write a program that accepts three numbers from the user and prints
+“increasing” if the numbers are in increasing order, “decreasing” if the
+numbers are in decreasing order, and “Neither increasing or decreasing
+order” otherwise.
+Test Data
+Input first number: 1524
+Input second number: 2345
+Input third number: 3321
+Expected Output :
+Increasing order
+
+30) Write a Java method that accepts three integers and checks whether they
+are consecutive or not. Returns true or false.
+Expected Output:
+Input the first number: 15
+Input the second number: 16
+Input the third number: 17
+Check whether the three said numbers are consecutive or not!true
